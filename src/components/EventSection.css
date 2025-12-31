@@ -1,0 +1,84 @@
+.eventsection {
+  width: 100%;
+  padding: 80px 100px;
+  
+  background-color: white;
+  
+}
+
+.eventcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+} 
+
+
+.eventcontent {
+  max-width: 500px;
+}
+
+.eventtag {
+  
+  color: #e11d48;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.eventtag::before {
+  
+  width: 40px;
+  height: 2px;
+  background-color: #e11d48;
+  position: absolute;
+  left: -50px;
+  top: 50%;
+}
+
+.eventcontent h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.eventsubtitle {
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.eventdescription {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.eventbtn {
+  padding: 14px 32px;
+  background-color: #e11d48;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.eventbtn:hover {
+  background-color: #be123c;
+}
+
+
+.eventimage img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+

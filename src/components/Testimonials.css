@@ -1,0 +1,61 @@
+.testimonials {
+  padding: 80px 60px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.subtitle {
+  color: #e11d48;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: #f3faf7;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 350px;
+  text-align: left;
+}
+
+.review {
+  color: #15803d;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.user span {
+  font-size: 14px;
+  color: gray;
+}

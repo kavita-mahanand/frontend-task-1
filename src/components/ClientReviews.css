@@ -1,0 +1,61 @@
+.reviewsection {
+  padding: 80px 60px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.reviewtag {
+  color: #e11d48;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.reviewheading {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.reviewcardwrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.reviewbox {
+  background-color: #f1f8f6;
+  padding: 35px;
+  border-radius: 20px;
+  max-width: 360px;
+  text-align: left;
+}
+
+.reviewtext {
+  font-size: 18px;
+  color: #15803d;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.reviewuser {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviewuser img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.reviewuser h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.reviewuser span {
+  font-size: 14px;
+  color: #6b7280;
+}

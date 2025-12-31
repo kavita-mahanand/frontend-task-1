@@ -1,0 +1,37 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 10;
+  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #ff1744;
+}
+
+.btn {
+  background: #ff1744;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+}
